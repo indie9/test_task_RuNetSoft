@@ -1,0 +1,393 @@
+
+<!DOCTYPE html>
+
+			<html lang="ru">
+			<head>
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<title>Николай Галанов тестовое задание</title>
+				<link rel="stylesheet" href="css/style.css" />
+				<script src="https://use.fontawesome.com/fdc78eac1c.js"></script>
+				<style>
+					@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Ubuntu:wght@300;400;500&display=swap');
+					</style>
+			</head>	
+	<body>
+		<div class="container">
+			<div class="bg0">
+			<div class="top_title">
+				<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>  Официальное обращение в “МосгорБТИ”</a>
+				<a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>  Вход / Регистрация</a>
+				<span id="top_title_phone">+7 (495) 629-02-80</span>
+			</div>
+			</div>
+			<div class="bg1">
+				<div class="menu_icon">
+					<img src="img/Frame.svg" alt="" id="nav_logo_mobile">
+					<div class="menu-btn">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+				
+			  <nav class="navbar">		
+				  	<img src="img/Frame.svg" alt="" id="nav_logo">
+					<a class="nav-link" href="#">О Нас</a>
+					<a class="nav-link" href="#">Наши офисы</a>
+					<a class="nav-link" href="#">Жизненные ситуации</a>	
+					<a class="nav-link" href="#">Услуги</a>
+					<a class="nav-link" href="#">Документы</a>
+					<a class="nav-link" href="#">Вопрос-ответ</a>
+					<a  id="search_link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+			  </nav>
+			</div>
+			<div class="bg20">
+				<div class="subNav">
+					<div class="subNav_item" id="subNav_item1">Главная</div>   
+					<div class="subNav_item" id="subNav_item2">Жизненные ситуации </div> 
+					<div class="subNav_item">Оценка недвижимости для сделки</div> 
+				</div>
+			</div>
+			<div class="bg3">
+				<div class="price">
+					<div class="price_title">
+						<h1>Оценка недвижимости для сделки</h1>
+					</div>
+					<div class="price_text">
+						<p>Поскольку большинство свершаемых сделок с недвижимым имуществом являются возмездными, то важным фактором для обеих сторон является цена такого имущества. Это основной вопрос при проведении сделки купли-продажи, определения арендной ставки, залога и тд.</p>
+						<p id="collapse_Content">Результаты оценки могут использоваться как для свершения сделок, так и для принятия управленческих решений (например, для сноса и снятия с баланса ветхого объекта), а также в судебных делопроизводствах.
+							<br/>
+							Наши специалисты быстро и точно оценят ваш объект недвижимости, при этом для заказа вам даже не потребуется выходить из дома.</p>
+						<p><a onclick="showMore()" id="showMore_button">Развернуть</a></p>
+					</div>
+					<div class="price_image">
+						<img class="price_image_img" src="img/price_img.png" >
+					</div>
+				</div>
+			</div>
+			<div class="bg4">
+			<div class="stepsTop">
+					<div id="stepsTop_title">
+						<h2>Этапы подготовки проекта межевания:</h2>
+					</div>
+					<div class="stepsTop_item">
+						<img class="stepsTop_item_img" src="img/Podgotovka.svg">
+						<span>Подготовьте документы необходимые для оценки</span>
+					</div>
+					<div class="stepsTop_Arrow"> </div>
+					<div class="stepsTop_item">
+						<img class="stepsTop_item_img" src="img/Zakaz_online_icon.svg">
+						<span>Подайте заявку на оценку в МосгорБТИ</span>
+					</div>
+					<div class="stepsTop_Arrow"></div>
+					<div class="stepsTop_item">
+						<img class="stepsTop_item_img" src="img/Ocenka.svg">
+						<span>Договоритесь о визите оценщика (если необходимо)</span>
+					</div>
+					<div class="stepsTop_Arrow"></div>
+					<div class="stepsTop_item">
+						<img class="stepsTop_item_img" src="img/Polu4enie.svg">
+						<span>Получите документы и проведите сделку</span>
+					</div>
+			</div>
+			</div>
+			<div class="stepsBot">
+				<div class="stepsBot_item">
+					<div class="stepsBot_item_icon">
+						<img class="stepsBot_item_numb" src="img/1.png">
+						<img class="stepsBot_item_img" src="img/Podgotovka.svg">
+					</div>
+					<div class="stepsBot_item_content">
+						<h2>Подготовьте документы необходимые для оценки</h2>
+						<p>Состав необходимых документов отличается для разных объектов. Полный список приведен в разделе "Оценка недвижимости". Там же вы можете ознакомиться со стоимостью и сроками изготовления отчета об оценке. Для подачи в электронном виде необходимо сделать скан-копии, или качественные фотографии документов.</p>
+					</div>
+				</div>
+				<div class="stepsBot_item">
+					<div class="stepsBot_item_icon">
+						<img class="stepsBot_item_numb" src="img/2.png">
+						<img class="stepsBot_item_img" src="img/Zakaz_online_icon.svg">
+					</div>
+					<div class="stepsBot_item_content">
+						<h2>Подайте заявку на оценку в МосгорБТИ</h2>
+						<p>Заказ можно оформить в нашем офисе или на сайте. После того как вы оставите заявку на сайте, с вами свяжется наш специалист для уточнения деталей заказа. Он расскажет вам порядок дальнейших действий, состав необходимых документов и сроках изготовления отчета.</p>
+					</div>
+				</div>
+				<div class="stepsBot_item">
+					<button class="stepsBot_item_Button">Заказать отчет об оценке</button>
+				</div>
+				<div class="stepsBot_item">
+					<div class="stepsBot_item_icon">
+						<img class="stepsBot_item_numb" src="img/3.png">
+						<img class="stepsBot_item_img" src="img/Ocenka.svg">
+					</div>
+					<div class="stepsBot_item_content">
+						<h2>Договоритесь о визите оценщика (если необходимо)</h2>
+						<p>Если в вашем случае необходим осмотр объекта, то необходимо будет согласовать время визита специалиста. Он подъедет в обозначенное время и зафиксирует состояние объекта.</p>
+					</div>
+				</div>
+				<div class="stepsBot_item">
+					<div class="stepsBot_item_icon">
+						<img class="stepsBot_item_numb"  src="img/4.png">
+						<img  class="stepsBot_item_img" src="img/Polu4enie.svg">
+					</div>
+					<div class="stepsBot_item_content">
+						<h2>Получите документы и проведите сделку</h2>
+						<p>В обозначенное время вам выдадут отчет об оценке, который вы сможете использовать для сделок с недвижимостью.</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="bg4">
+			<div class="situation">
+				
+				<div class="arr">
+					<h2>Связанные жизненные ситуации</h2>
+					<div id="arr_group">
+						<img src="img/Property 1=Arrow_LEFT, Property 2=NORMAL.svg" alt="" id="arrow_left" >
+						<img src="img/Property 1=Arrow_R, Property 2=NORMAL.svg" alt="" id="arrow_right" onclick="rrol()">
+					</div>
+				</div>
+				<div class="situation_Container">
+					<div class="situation_item">
+						<div class="situation_item_img">
+							<img  src="img/Оценка недвижимости для ипотеки 1.svg" alt="archive_plane">
+						</div>
+						<div class="situation_item_content">
+							<h3>Оценка объекта для ипотеки 1</h3>
+							<p>Для согласования перепланировки 
+							в Мосжилинспекции вам потребуется подготовить пакет документов. 
+							Среди них – технический паспорт объекта недвижимости</p>
+						</div>
+						<div class="situatin_item_button">
+							<button class="situatin_item_button_style">Подробнее</button>
+						</div>
+					</div>
+					<div class="situation_item">
+						<div class="situation_item_img">
+							<img src="img/Архивный план квартиры 1.svg" alt="ocenka">
+						</div>
+						<div class="situation_item_content">
+							<h3>Архивный план квартиры 2</h3>
+							<p>ГБУ МосгорБТИ обладает наиболее полной 
+								информацией об истории объектов
+								недвижимости столицы.</p>
+						</div>
+						<div class="situatin_item_button">
+							<button class="situatin_item_button_style">Подробнее</button>
+						</div>
+					</div>
+					<div class="situation_item ">
+						<div class="situation_item_img">
+							<img src="img/Оценка недвижимости для ипотеки 1.svg" alt="archive_plane">
+						</div>
+						<div class="situation_item_content">
+							<h3>Оценка объекта для ипотеки 3</h3>
+							<p>Для согласования перепланировки 
+							в Мосжилинспекции вам потребуется подготовить пакет документов. 
+							Среди них – технический паспорт объекта недвижимости</p>
+						</div>
+						<div class="situatin_item_button">
+							<button class="situatin_item_button_style">Подробнее</button>
+						</div>
+					</div>
+					<div class="situation_item ">
+						<div class="situation_item_img">
+							<img src="img/Архивный план квартиры 1.svg" alt="ocenka">
+						</div>
+						<div class="situation_item_content">
+							<h3>Архивный план квартиры 4</h3>
+							<p>ГБУ МосгорБТИ обладает наиболее полной 
+								информацией об истории объектов
+								недвижимости столицы.</p>
+						</div>
+						<div class="situatin_item_button">
+							<button class="situatin_item_button_style">Подробнее</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="service">
+				
+				<div class="arr">
+					<h2>Связанные услуги</h2>
+					<div id="arr_group">
+						<img src="img/Property 1=Arrow_LEFT, Property 2=NORMAL.svg" alt="" id="arrow_left_bot" >
+						<img src="img/Property 1=Arrow_R, Property 2=NORMAL.svg" alt="" id="arrow_right_bot" onclick="rrolBot()">
+					</div>
+				</div>
+				<div class="service_container">
+					<div class="service_item">
+						<img src="img/Icon/Tex_inventar.png" alt="" class="service_item_icon">
+						<h3>Техническая инвентаризация</h3>
+						<p>Проведение обследования 
+							и документы технического учета:  
+							тех.паспорт, поэтажный план, экспликация</p>
+						<img src="img/Tex_invert.png" alt="" class="service_item_img">
+					</div>
+					<div class="service_item ">
+						<img src="img/Icon/Kadastr.png" alt="" class="service_item_icon">
+						<h3>Кадастровые работы</h3>
+						<p>Проведение обследования 
+							и документы для постановки 
+							на кадастровый и государственный учёт: 
+							Технический план, Межевой план, Акт обследования</p>
+						<img src="img/Kadastr.png" alt="" class="service_item_img">
+					</div>
+					<div class="service_item ">
+						<img src="img/Icon/Archive.png" alt="" class="service_item_icon">
+						<h3>Предоставление копий архивной документации</h3>
+						<p>Вся техническая документация, о недвижимости, расположенной на территории Москвы.
+							</p>
+						<img src="img/Archive.png" alt="" class="service_item_img">
+					</div>
+					<div class="service_item ">
+						<img src="img/Icon/Tex_inventar.png" alt="" class="service_item_icon">
+						<h3>Техническая инвентаризация</h3>
+						<p>Проведение обследования 
+							и документы технического учета:  
+							тех.паспорт, поэтажный план, экспликация</p>
+						<img src="img/Tex_invert.png" alt="" class="service_item_img">
+					</div>
+					<div class="service_item ">
+						<img src="img/Icon/Kadastr.png" alt="" class="service_item_icon">
+						<h3>Кадастровые работы</h3>
+						<p>Проведение обследования 
+							и документы для постановки 
+							на кадастровый и государственный учёт: 
+							Технический план, Межевой план, Акт обследования</p>
+						<img src="img/Kadastr.png" alt="" class="service_item_img">
+					</div>
+					<div class="service_item ">
+						<img src="img/Icon/Archive.png" alt="" class="service_item_icon">
+						<h3>Предоставление копий архивной документации</h3>
+						<p>Вся техническая документация, о недвижимости, расположенной на территории Москвы.
+							</p>
+						<img src="img/Archive.png" alt="" class="service_item_img">
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="bg2">
+				<div class="question">
+					<div class="question_content">
+						<h2>Остались вопросы? </h2>
+						<h3>Оставьте ваш номер и наши специалисты свяжуться с вами</h3>
+					</div>
+					<div class="question_form">
+						<input type="text" class="question_form_input" placeholder="Ваше имя">
+						<input type="tel" class="question_form_input" placeholder="Номер телефона">
+						<button class="question_form_button">свяжитесь со мной</button>
+					</div>
+				</div>
+			</div>
+			<div class="service_list">
+					<div class="service_list_item">
+						<a href="#" class="service_list_item_img" id="zakaz_icon"></a>
+						<p>Заказать документы</p>
+					</div>
+					<div class="service_list_item">
+						<a href="#" class="service_list_item_img" id="zapis_icon"></a>
+						<p>Записаться в офис</p>
+					</div>
+					<div class="service_list_item">
+						<a href="#" class="service_list_item_img" id="question_icon"></a>
+						<p>Задать вопрос специалисту</p>
+					</div>
+					<div class="service_list_item">
+						<a href="#" class="service_list_item_img" id="How_icon"></a>
+						<p>Узнать статус заказа</p>
+					</div>
+				
+			</div>
+			
+			<footer>
+				<div class="footer_top">
+					<div class="footer_top_item">
+						<h3>Услуги</h3>
+						<ul>
+							<li>Техническая инвентаризация</li>
+							<li>Кадастровые работы</li>
+							<li>Геодезические работы</li>
+							<li>Предоставление копий архивной документации</li>
+							<li>Проектные работы</li>
+							<li>Оценочная деятельность</li>
+							<li>Разработка проектов межевания территории</li>
+							<li>3D-замеры</li>
+						</ul>
+					</div>
+					<div class="footer_top_item">
+						<h3>Жизненные ситуации</h3>
+						<ul>
+							<li>Снос, уничтожение объекта. Нужны данные технического учета</li>
+							<li>Как поставить объект на кадастровый учет</li>
+							<li>Архивная справка или выписка БТИ</li>
+							<li>Перепланировка зданий, офисов</li>
+							<li>Споры по земельным участкам</li>
+							<li>Уточнение границ земельного участка</li>
+							<li>Документы для ипотеки. Оценка объекта</li>
+						</ul>
+					</div>
+					<div class="footer_top_item">
+						<h3>Документы</h3>
+						<ul>
+							<li>Технический паспорт здания</li>
+							<li>Технический паспорт жилого помещения</li>
+							<li>Технический паспорт не жилого помещения</li>
+							<li>Поэтажный план</li>
+							<li>Проектные работы</li>
+							<li>Технический план квартиры и помещения</li>
+							<li>Разработка проектов межевания территории</li>
+							<li>Копия поэтажного/ситуационного плана</li>
+							<li>Проект перепланировки и переустройства</li>
+						</ul>
+					</div>
+					<div class="footer_top_item">
+						<h3>Дополнительная информация</h3>
+						<ul>
+							<li>Пресс-служба</li>
+							<li>Охрана труда</li>
+							<li>О закупках</li>
+							<li>Антикоррупционная политика</li>
+							<li>Политика в области качества</li>
+							<li>Электронная приёмная</li>
+							<li>Адресная карта МосгорБТИ</li>
+						</ul>
+					</div>
+				</div>
+				<hr/>
+				<div class="footer_bot">
+					<div class="footer_bot_item"> 
+						<img src="img/MGBTI_logo.svg" id="logo_img" alt="">
+					</div>
+					<div class="footer_bot_item"> 
+						125009, г. Москва, Малый Гнездниковский пер., д. 9, стр. 7
+						Справочный тел./факс: +7 (495) 629-02-80
+					</div>
+					<div class="footer_bot_item">
+						<img src="img/Property 1=Normal.svg" alt="">
+					
+					
+						<img src="img/Property 1=Normal (5).svg" alt="">
+					
+					
+						<img src="img/Property 1=Normal (6).svg" alt="">
+					
+					
+						<img src="img/Property 1=Normal (7).svg" alt="">
+					</div>
+					<div class="footer_bot_item">
+						<p>© ГБУ МосгорБТИ, 2021 
+							Все права защищены</p>
+					</div>
+
+				</div>
+			</footer>
+		</div>
+	
+	</body>
+
+
+<script src="js/script.js" ></script>
+</body>
+</html>
